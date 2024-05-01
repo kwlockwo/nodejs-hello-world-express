@@ -1,0 +1,10 @@
+previewsEnabled: true
+services:
+  - name: nodejs-hello-world-express
+    type: web
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm run prod
+    envVars:
+      - key: NODE_ENV
+        value: production

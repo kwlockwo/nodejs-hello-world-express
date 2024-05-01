@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-hello-world-express",
+  "version": "1.0.0",
+  "description": "NodeJS Hello World with Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwlockwo/nodejs-hello-world-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
